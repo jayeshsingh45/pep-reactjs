@@ -12,11 +12,10 @@ function calculateDiscount(price, discount = 10) {
 
 const originalPrice = 100;
 const finalPrice = calculateDiscount(originalPrice);
-//console.log(`Final Price after ${10}% discount: ${finalPrice}`); // Output: Final Price after 10% discount: $90
+//console.log(`Final Price after ${10}% discount: ${finalPrice}`); 
 
 const customDiscountPrice = calculateDiscount(originalPrice, 20);
-//console.log(`Final Price after ${20}% discount: ${customDiscountPrice}`); // Output: Final Price after 20% discount: $80
-
+//console.log(`Final Price after ${20}% discount: ${customDiscountPrice}`); 
 
 // ==============================
 // Create a function mergeArrays that takes two arrays as parameters and returns a new
@@ -28,7 +27,6 @@ function mergeArrays(array1, array2) {
     return combinedArray;
 }
 
-// Example usage:
 const arr1 = [1, 2, 3];
 const arr2 = [4, 5, 6];
 const mergedArray = mergeArrays(arr1, arr2);
